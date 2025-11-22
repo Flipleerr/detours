@@ -5,7 +5,6 @@ fn build_detours() {
         .static_crt(true)
         .flag("/MT")
         .flag("/W4")
-        .flag("/WX")
         .flag("/Gy")
         .flag("/Gm-")
         .flag("/Zl")
